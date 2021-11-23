@@ -112,9 +112,10 @@ body {
   }
 
   .card-content {
-    margin-bottom: 5em;
+    margin-bottom: 7em;
     line-height: 2em;
-    padding: 1.1em;
+    padding: 0;
+    font-size: 0.8rem;
   }
 
   .luxury-color {
