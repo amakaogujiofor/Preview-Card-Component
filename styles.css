@@ -1,0 +1,62 @@
+/* Custom Styles */
+
+:root {
+  /* Font Family */
+  --ff--primary: "Big Shoulders Display", cursive;
+  --ff--secondary: "Lexend Deca", sans-serif;
+
+  /* Colors */
+  --clr-primary-orange: hsl(31, 77%, 52%);
+  --clr-dark-cyan: hsl(184, 100%, 22%);
+  --clr-very-dark-cyan: hsl(179, 100%, 13%);
+  --clr-neutral-paragraphs: hsla(0, 0%, 100%, 0.75);
+  /* (background, headings, buttons) */
+  --clr-lightgray: hsl(0, 0%, 95%);
+
+  /* Font Size */
+  --fs-main: 1rem;
+}
+
+/* body {
+  
+} */
+
+.contentbox1 {
+  background-color: var(--clr-primary-orange);
+  margin: 2em;
+  padding: 3em;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.card-title {
+  font-family: var(--ff--primary);
+  color: var(--clr-lightgray);
+  text-transform: uppercase;
+}
+
+.card-content {
+  font-family: var(--ff--secondary);
+  font-size: 0.85rem;
+  line-height: 20px;
+  color: var(--clr-neutral-paragraphs);
+  margin-bottom: 3em;
+}
+
+.card-btn {
+  font-family: var(--ff--secondary);
+  font-size: 0.8rem;
+  background-color: var(--clr-lightgray);
+  padding: 0.8em 2em;
+  border-radius: 20px;
+  color: var(--clr-primary-orange);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.card-btn:hover,
+.card-btn:focus {
+  background-color: transparent;
+  border: 2px solid var(--clr-lightgray);
+  color: var(--clr-lightgray);
+}
